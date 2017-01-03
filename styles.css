@@ -1,0 +1,45 @@
+body {
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    background: white;
+}
+
+div:first-child {
+    margin-top: 0px;
+}
+
+div {
+    cursor: pointer;
+    text-align: center;
+    display: table-cell;
+    padding: 1px 3px;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    width: 50px;
+    height: 50px;
+}
+
+div:hover {
+    background: #aaaaaa;
+}
+
+#s1 {
+    background-color: #eee;
+}
+
+#s2 {
+    background-color: #d6e685;
+}
+
+#s3 {
+    background-color: #8cc665;
+}
+
+#s4 {
+    background-color: #44a340;
+}
+
+#s5 {
+    background-color: #1e6823;
+}

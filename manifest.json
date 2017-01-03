@@ -1,0 +1,18 @@
+{
+    "name": "Paint your Github Contribution panel pretty colors!",
+    "version": "1.0",
+    "permissions": [
+        "tabs", "http://github.com/*", "https://github.com/*", "storage"
+    ],
+    "browser_action": {
+        "default_title": "Change colors.",
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [{
+        "matches": ["https://www.github.com/*"],
+        "css": ["styles.css"],
+        "js": ["jquery.manifest_version.js", "background.js"]
+    }],
+    "manifest_version": 2
+}

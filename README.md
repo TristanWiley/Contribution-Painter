@@ -5,7 +5,7 @@ Paint your (or someone else's) Chrome contribution panel! Make it pretty colors,
 To use press shift and press the blocks in the color pane.
 
 (Super tired writing this).
-
+![Screenshot of the amazing extension](http://i.imgur.com/SbYZXWq.jpg "Screenshot of the amazing extension")
 
 ##Contributing
 Submit a PR if you want to add features or fix bugs!

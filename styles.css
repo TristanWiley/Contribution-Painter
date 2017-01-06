@@ -25,6 +25,10 @@ div:hover {
     background: #aaaaaa;
 }
 
+input {
+    width: 100%;
+}
+
 #s1 {
     background-color: #eee;
 }
